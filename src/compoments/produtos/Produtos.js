@@ -25,6 +25,30 @@ const produtos = [
     descricao: 'Adoce o seu dia com o sabor suave da canela.',
     preco: 'R$ 16,00',
     imagem: '/imagens/biscoito-canela.jpg'
+  },
+  {
+    nome: 'Biscoito de Limão',
+    descricao: 'Refrescante e cítrico, uma combinação perfeita.',
+    preco: 'R$ 17,00',
+    imagem: '/imagens/biscoito-limao.jpg'
+  },
+  {
+    nome: 'Biscoito Integral',
+    descricao: 'Uma opção saudável e deliciosa para o seu lanche.',
+    preco: 'R$ 19,00',
+    imagem: '/imagens/biscoito-integral.jpg'
+  },
+  {
+    nome: 'Biscoito de Coco',
+    descricao: 'Sabor tropical com a leveza do coco.',
+    preco: 'R$ 21,00',
+    imagem: '/imagens/biscoito-coco.jpg'
+  },
+  {
+    nome: 'Biscoito de Nozes',
+    descricao: 'Uma combinação crocante e saborosa de nozes.',
+    preco: 'R$ 22,00',
+    imagem: '/imagens/biscoito-nozes.jpg'
   }
 ];
 

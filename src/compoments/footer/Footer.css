@@ -59,4 +59,18 @@
   .footer-right p svg {
     margin-right: 0.5rem;
   }
+
+  /* Estilos para o link do Instagram */
+.instagram-link {
+  color: #ff6347; /* Cor inicial (tom de laranja/tomate) */
+  text-decoration: none; /* Remove o sublinhado */
+  font-weight: bold;
+  transition: color 0.3s ease; /* Efeito suave na mudança de cor */
+}
+
+/* Efeito hover: muda a cor ao passar o mouse */
+.instagram-link:hover {
+  color: #ff4500; /* Muda para um tom mais escuro de laranja/vermelho */
+}
+
   

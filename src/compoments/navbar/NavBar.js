@@ -21,7 +21,7 @@ const NavBar = () => {
                     <li><a href="/">Home</a></li>
                     <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#produtos">Produtos</a></li>
-                    <li><a href="#clientes">Contatos</a></li>
+                    <li><a href="#contato">Contatos</a></li>
                 </ul>
             </div>
         </nav>

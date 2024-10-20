@@ -15,11 +15,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1rem;
 }
 
-.logo {
+.logo img{
     color: white;
     font-size: 1.5rem;
+
 }
 
 .menu-icon {

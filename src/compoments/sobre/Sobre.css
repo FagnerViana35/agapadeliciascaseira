@@ -1,0 +1,57 @@
+.sobre-nos {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.paragraph {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.paragraph strong {
+  color: #d2691e; /* Destaque para o nome da empresa */
+}
+
+.imagem-agape-sobre {
+  width: 300px;
+}
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column; /* Força os elementos a ficarem um embaixo do outro no mobile */
+  }
+
+  .title {
+    font-size: 28px; /* Título menor em telas pequenas */
+    margin-bottom: 15px;
+  }
+
+  .paragraph {
+    font-size: 16px; /* Texto menor para melhor legibilidade em telas pequenas */
+    margin-bottom: 10px;
+  }
+
+  .imagem-agape-sobre {
+    width: 100%; /* Imagem ocupa 100% da largura disponível em mobile */
+    max-width: 300px; /* Limita o tamanho máximo da imagem */
+    height: auto;
+  }
+}

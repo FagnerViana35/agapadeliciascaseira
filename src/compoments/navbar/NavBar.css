@@ -1,0 +1,77 @@
+/* src/components/NavBar.css */
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+.navbar {
+    font-family: 'Patrick Hand', cursive; /* Fonte estilo letra de mão */
+    font-size: 1.5rem; /* Tamanho da fonte */
+    font-weight: normal; /* Peso da fonte */
+    background-color: rgb(247, 162, 162);
+    padding: 1rem; /* Espaçamento interno */
+    color: white; /* Cor do texto */
+}
+
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.menu-icon {
+    display: none; /* Oculto por padrão */
+    font-size: 1.8rem;
+    color: black;
+    cursor: pointer;
+    background-color: rgb(247, 162, 162); /* Cor de fundo */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background-color: rgb(247, 162, 162);
+}
+
+.nav-links li a:hover {
+    background-color: white;
+    color: rgb(245, 149, 149);
+    border-radius: 5px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block; /* Mostra o ícone de menu em telas pequenas */
+    }
+
+    .nav-links {
+        display: none; /* Oculta os links por padrão */
+        flex-direction: column;
+        position: absolute;
+        top: 60px; /* Ajuste conforme necessário */
+        left: 0;
+        right: 0;
+        background-color: rgb(247, 162, 162);
+    }
+
+    .nav-links.active {
+        display: flex; /* Mostra os links quando o menu está aberto */
+    }
+
+    .nav-links li {
+        text-align: center;
+        padding: 1rem 0; /* Espaçamento vertical */
+    
+    }
+}

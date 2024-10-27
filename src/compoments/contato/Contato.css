@@ -1,83 +1,38 @@
+/* src/components/Contato.css */
 .contato {
-    padding: 40px 20px;
-    background-color: #f0f0f0;
-    text-align: center;
-    margin-right: 40px; /* Margem para telas maiores */
+    padding: 2rem;
+    background-color: #f8f8f8; /* Cor de fundo leve */
 }
-
-/* Estilos para dispositivos móveis */
-@media (max-width: 768px) {
-    .contato {
-        margin-right: 20px; /* Margem menor para telas menores */
-    }
-}
-
 
 .contato-title {
-    font-size: 28px;
-    color: #333;
-    margin-bottom: 20px;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
 }
 
 .contato-container {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap; /* Permite que os itens empilhem em telas menores */
-}
-
-.contato-mensagem {
-    max-width: 80%;
-    flex: 1;
-    padding-right: 20px; /* Espaço entre a mensagem e o formulário */
-}
-
-.contato-form {
-    flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    max-width: 400px; /* Definindo uma largura máxima para o formulário */
-    width: 100%; /* Garantindo que ocupe toda a largura disponível */
+    align-items: center;
 }
 
-.contato-form input,
-.contato-form textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
+.whatsapp-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
 }
 
-.contato-form button {
-    padding: 10px 20px;
-    background-color: #d2691e; /* Cor de destaque */
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    max-width: 150px; /* Largura máxima do botão */
-    width: 100%; /* O botão ocupará 100% da largura disponível do contêiner */
+.whatsapp-link {
+    display: flex;
+    align-items: center;
+    color: #25D366; /* Cor padrão do WhatsApp */
+    text-decoration: none;
+    font-size: 1.5rem;
 }
 
-.contato-form button:hover {
-    background-color: #b3590e; /* Cor ao passar o mouse */
-}
-
-/* Responsividade para telas menores */
-@media (max-width: 768px) {
-    .contato-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .contato-mensagem {
-        padding-right: 0; /* Remove o espaço no mobile */
-        margin-bottom: 20px; /* Espaço abaixo da mensagem */
-    }
+.whatsapp-number {
+    margin-left: 0.5rem; /* Espaço entre o ícone e o número */
 }
 
 .whatsapp-icon {
@@ -94,3 +49,4 @@
 .whatsapp-icon a {
     color: white; /* Cor do ícone */
 }
+

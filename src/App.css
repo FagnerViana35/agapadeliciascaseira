@@ -14,4 +14,5 @@ body {
   width: 100vw; /* Usa a largura total da viewport */
   padding: 0; /* Remove preenchimento */
   box-sizing: border-box; /* Inclui bordas e preenchimentos na largura total */
+  max-width: 100%;
 }

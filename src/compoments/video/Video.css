@@ -1,0 +1,64 @@
+.video-background {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Ajuste conforme necessário */
+    overflow: hidden;
+    
+}
+
+.imagem-agape {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: auto; /* Manter a proporção */
+    min-height: 100%;
+    min-width: 100%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Colocar o vídeo atrás */
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Cor do texto */
+    z-index: 2; /* Colocar o texto à frente */
+    text-align: center; /* Centralizar o texto */
+}
+
+h1, p {
+    margin: 0; /* Remover margens padrão */
+}
+
+.title {
+    color: white;
+    font-size: 94px; /* Tamanho para telas grandes */
+    font-family: 'Patrick Hand', cursive;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.title-agape {
+    color: white;
+    font-size: 48px; /* Tamanho para telas grandes */
+    font-family: 'Patrick Hand', cursive;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+    .title {
+        font-size: 48px; /* Tamanho reduzido para telas pequenas */
+    }
+
+    .title-agape {
+        font-size: 24px; /* Tamanho reduzido para telas pequenas */
+    }
+}
+
+
+
+

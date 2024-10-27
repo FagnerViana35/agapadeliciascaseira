@@ -5,11 +5,20 @@
     font-family: 'Patrick Hand', cursive; /* Fonte estilo letra de mão */
     font-size: 1.5rem; /* Tamanho da fonte */
     font-weight: normal; /* Peso da fonte */
-    background-color: rgb(247, 162, 162);
+    background-color: rgba(247, 162, 162, 0.9); /* Transparência para o fundo */
     padding: 1rem; /* Espaçamento interno */
     color: white; /* Cor do texto */
+    position: fixed; /* Fixa o navbar no topo */
+    top: 0; /* Posiciona no topo da tela */
+    left: 0; /* Alinha à esquerda */
+    right: 0; /* Alinha à direita */
+    z-index: 10; /* Coloca o navbar acima de outros elementos */
 }
 
+/* Muda a cor do fundo ao rolar */
+.navbar.scrolled {
+    background-color: rgb(247, 162, 162); /* Cor ao rolar */
+}
 
 .navbar-container {
     display: flex;
@@ -18,10 +27,9 @@
     padding: 1rem;
 }
 
-.logo img{
+.logo img {
     color: white;
     font-size: 1.5rem;
-
 }
 
 .menu-icon {
@@ -29,7 +37,6 @@
     font-size: 1.8rem;
     color: black;
     cursor: pointer;
-    background-color: rgb(247, 162, 162); /* Cor de fundo */
 }
 
 .nav-links {
@@ -42,7 +49,6 @@
     color: white;
     text-decoration: none;
     padding: 0.5rem 1rem;
-    background-color: rgb(247, 162, 162);
 }
 
 .nav-links li a:hover {
@@ -74,6 +80,5 @@
     .nav-links li {
         text-align: center;
         padding: 1rem 0; /* Espaçamento vertical */
-    
     }
 }

@@ -37,7 +37,7 @@ const Footer = () => {
 
           </p>
         </div>
-      </div>https://www.instagram.com/agapedeliciascaseiras/
+      </div>
       <div className="footer-bottom">
         <p>&copy; 2024 Ágape Delícias Caseiras. Todos os direitos reservados.</p>
       </div>

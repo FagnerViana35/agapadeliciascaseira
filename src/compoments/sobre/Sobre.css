@@ -1,57 +1,58 @@
 .sobre-nos {
-  padding: 40px 20px;
-  background-color: #f9f9f9;
+  display: flex; /* Usando flexbox para o layout */
+  padding: 1rem; /* Adiciona espaçamento */
+  background-color: rgba(255, 255, 255, 0.9); /* Fundo levemente transparente */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
 }
 
 .container {
-  max-width: 70%;
-  margin: 0 auto;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.title {
-  font-size: 36px;
-  margin-bottom: 20px;
-  color: #333;
-}
-
-.paragraph {
-  font-size: 18px;
-  color: #555;
-  line-height: 1.6;
-  margin-bottom: 15px;
-}
-
-.paragraph strong {
-  color: #d2691e; /* Destaque para o nome da empresa */
+  display: flex; /* Permite que a imagem e o texto fiquem lado a lado em telas grandes */
+  width: 100%; /* Largura total da seção */
 }
 
 .imagem-agape-sobre {
-  width: 300px;
+  width: 40%; /* Ajusta a largura da imagem */
+  height: auto; /* Mantém a proporção da imagem */
+  object-fit: cover; /* Cobre o espaço da imagem sem distorção */
+  border-radius: 10px; /* Bordas arredondadas para a imagem */
+  margin-right: 1rem; /* Espaço entre a imagem e o texto */
 }
 
-/* Estilos para dispositivos móveis */
-@media only screen and (max-width: 600px) {
+.sobre-texto {
+  width: 60%; /* Ajusta a largura do texto */
+  color: #555; /* Cor do texto */
+  line-height: 1.6; /* Espaçamento entre linhas */
+  padding: 1rem; /* Espaçamento interno do texto */
+  background-color: white; /* Fundo branco para o texto */
+  border-radius: 10px; /* Bordas arredondadas para o texto */
+}
+
+/* Remover scroll apenas em telas pequenas */
+@media (max-width: 768px) {
   .container {
-    flex-direction: column; /* Força os elementos a ficarem um embaixo do outro no mobile */
-  }
-
-  .title {
-    font-size: 28px; /* Título menor em telas pequenas */
-    margin-bottom: 15px;
-  }
-
-  .paragraph {
-    font-size: 16px; /* Texto menor para melhor legibilidade em telas pequenas */
-    margin-bottom: 10px;
+    flex-direction: column; /* Altera a direção do flex para coluna */
   }
 
   .imagem-agape-sobre {
-    width: 100%; /* Imagem ocupa 100% da largura disponível em mobile */
-    max-width: 300px; /* Limita o tamanho máximo da imagem */
-    height: auto;
+    width: 100%; /* A imagem ocupa toda a largura */
+    margin-right: 0; /* Remove a margem direita */
+    margin-bottom: 1rem; /* Espaçamento abaixo da imagem */
   }
+
+  .sobre-texto {
+    display: flex; /* Usando flexbox para centralizar */
+    flex-direction: column; /* Direção de coluna */
+    align-items: center; /* Centraliza horizontalmente */
+    text-align: center; /* Centraliza o texto */
+    width: 90%;
+  }
+}
+
+.sobre-texto h2 {
+  color: #333; /* Cor do título */
+}
+
+.sobre-texto p {
+  margin-bottom: 1rem; /* Espaçamento entre parágrafos */
 }

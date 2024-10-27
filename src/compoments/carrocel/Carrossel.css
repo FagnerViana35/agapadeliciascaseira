@@ -1,3 +1,9 @@
+
+.carrossel-title{
+  text-align: center;
+}
+
+.carrossel-title {color: #333;font-size: 28px;}
 .card {
   text-align: center;
   padding: 20px;

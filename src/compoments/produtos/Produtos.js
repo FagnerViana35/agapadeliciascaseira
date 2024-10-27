@@ -55,7 +55,7 @@ const produtos = [
 const Produtos = () => {
   return (
     <section className="produtos">
-      <h2 className="produtos-title">Nossos Produtos</h2>
+      <h2 className="produtos-title">Produtos</h2>
       <div className="produtos-grid">
         {produtos.map((produto, index) => (
           <div key={index} className="produto-card">

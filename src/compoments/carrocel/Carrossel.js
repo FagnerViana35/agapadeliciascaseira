@@ -13,7 +13,7 @@ import TioJoao from '../styles/feirao-tio-joao.jpg';
 import EmporioCampo from '../styles/emporio-do-campo.jpg';
 import PadariaVovoLucia from '../styles/padaria-vovo-lucia.jpg';
 import PadariaToninho from '../styles/padaria-toninho.png';
-import PadariaPedrasLua from '../styles/padaria.png';
+import PadariaPedrasLua from '../styles/padaria-pedra-lua.jpg';
 import MercadoToninhoServ from '../styles/mercado.png';
 import SupermercadoBuenoServ from '../styles/bueno-serv.jpg';
 

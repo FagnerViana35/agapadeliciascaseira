@@ -6,7 +6,6 @@
     font-size: 1.5rem; /* Tamanho da fonte */
     font-weight: normal; /* Peso da fonte */
     background-color: rgba(247, 162, 162, 0.9); /* Transparência para o fundo */
-    padding: 1rem; /* Espaçamento interno */
     color: white; /* Cor do texto */
     position: fixed; /* Fixa o navbar no topo */
     top: 0; /* Posiciona no topo da tela */

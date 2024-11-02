@@ -56,6 +56,11 @@
   font-weight: bold;
 }
 
+.produto-imagem-container {
+  width: 80%;
+  margin: 0 auto; /* Centraliza o contêiner da imagem */
+}  
+
 /* Modo mobile */
 @media (max-width: 768px) {
   .produtos-title {
@@ -82,4 +87,9 @@
   .produto-imagem {
       height: 150px; /* Ajustar altura da imagem no mobile */
   }
+
+  .produto-imagem-container {
+    width: 50%;
+    margin: 0 auto; /* Centraliza o contêiner da imagem */
+  }  
 }

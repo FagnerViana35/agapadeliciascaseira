@@ -1,6 +1,6 @@
 import React from 'react';
 import './Sobre.css';
-import Agape from '../styles/sobre-imagem.webp';
+import Agape from '../styles/foto-secao.jpg';
 
 const SobreNos = () => {
   return (

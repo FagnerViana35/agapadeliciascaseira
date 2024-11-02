@@ -1,46 +1,56 @@
 import React from 'react';
 import './Produtos.css'; // Importando o arquivo CSS
 
+import Amanteigados from '../styles/amanteigados.png'
+import Coco from '../styles/coco.png'
+import Nata from '../styles/nata.png'
+import Castanha from '../styles/castanha.png'
+import Canela from '../styles/canela.png'
+import Beliscao from '../styles/beliscao.png'
+import Casadinho from '../styles/casadinho.png'
+import Chocolate from '../styles/chocolate.png'
+import Pdf from '../arquivoPdf/Pdf';
+
 const produtos = [
   {
     nome: 'Biscoito Amanteigado',
     descricao: 'Clássico irresistível, leve e crocante.',
-    imagem: '/imagens/biscoito-amanteigado.jpg'
+    imagem: Amanteigados
   },
   {
     nome: 'Biscoito de Nata',
     descricao: 'Delicado sabor de nata com um toque especial.',
-    imagem: '/imagens/biscoito-nata.jpg'
+    imagem: Nata
   },
   {
     nome: 'Biscoito de Castanha de Caju',
     descricao: 'Sabor rico da castanha em um biscoito crocante.',
-    imagem: '/imagens/biscoito-castanha-caju.jpg'
+    imagem: Castanha
   },
   {
     nome: 'Biscoito de Canela',
     descricao: 'Aqueça o dia com o toque suave da canela.',
-    imagem: '/imagens/biscoito-canela.jpg'
+    imagem: Canela
   },
   {
     nome: 'Biscoito de Coco',
     descricao: 'Sabor refrescante e tropical do coco.',
-    imagem: '/imagens/biscoito-coco.jpg'
+    imagem: Coco
   },
   {
     nome: 'Biscoito Beliscão de Goiaba',
     descricao: 'Delicioso biscoito recheado com goiaba.',
-    imagem: '/imagens/biscoito-beliscao-goiaba.jpg'
+    imagem: Beliscao
   },
   {
     nome: 'Biscoito Casadinho de Doce de Leite',
     descricao: 'Doçura irresistível com recheio de doce de leite.',
-    imagem: '/imagens/biscoito-casadinho-doce-leite.jpg'
+    imagem: Casadinho
   },
   {
     nome: 'Biscoito Amanteigado com Cobertura de Chocolate',
     descricao: 'Amanteigado clássico com cobertura de chocolate.',
-    imagem: '/imagens/biscoito-amanteigado-chocolate.jpg'
+    imagem: Chocolate
   }
 ];
 
@@ -61,6 +71,7 @@ const Produtos = () => {
           </div>
         ))}
       </div>
+      <Pdf />
     </section>
   );
 };

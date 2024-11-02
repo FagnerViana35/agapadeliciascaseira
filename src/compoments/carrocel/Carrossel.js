@@ -16,6 +16,7 @@ import PadariaToninho from '../styles/padaria-toninho.png';
 import PadariaPedrasLua from '../styles/padaria-pedra-lua.jpg';
 import MercadoToninhoServ from '../styles/mercado.png';
 import SupermercadoBuenoServ from '../styles/bueno-serv.jpg';
+import FaturaMix from '../styles/fartura-mix.jpg'
 
 
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
@@ -33,6 +34,7 @@ const clientes = [
   { nome: 'Empório do Campo Hortifruti', logo: EmporioCampo, link: 'https://www.facebook.com/emporiodocampohortifruti/' },
   { nome: 'Padaria do Toninho', logo: PadariaToninho, link: 'https://www.facebook.com/padariaeconfeitariatoninho/' },
   { nome: 'Supermercados Bueno Serve', logo: SupermercadoBuenoServ, link: 'https://www.instagram.com/buenoserve.supermercados/' },
+  { nome: 'Fartura Mix', logo: FaturaMix, link: 'https://www.facebook.com/farturamix/'},
 
   { nome: 'Padaria Pedras da Lua', logo: PadariaPedrasLua, link: '' },
   { nome: 'Mercado Toninho Serv', logo: MercadoToninhoServ, link: '' },

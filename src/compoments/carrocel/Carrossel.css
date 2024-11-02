@@ -11,6 +11,13 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Modo mobile */
+@media (max-width: 768px) {
+  .card {
+    background-color: transparent; /* Torna o fundo transparente no mobile */
+  }
+}
+
 .cliente-logo {
   width: 150px;
   height: auto;

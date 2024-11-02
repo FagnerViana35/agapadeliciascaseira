@@ -14,8 +14,9 @@
 /* Modo mobile */
 @media (max-width: 768px) {
   .card {
-    background-color: transparent; /* Torna o fundo transparente no mobile */
-  }
+    width: 110%;
+    height: 200px;
+      }
 }
 
 .cliente-logo {

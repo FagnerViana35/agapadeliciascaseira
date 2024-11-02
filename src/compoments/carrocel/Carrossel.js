@@ -8,7 +8,7 @@ import Passarinho from '../styles/passarinho.jpg';
 import VarejaoFartura from '../styles/varejao-fartura.jpg';
 import VarejaoQualidade from '../styles/vareja-qualidade.jpg';
 import Ruscito from '../styles/ruscito.png';
-import Miami from '../styles/miami.jpg';
+import Miami from '../styles/miami-nova.jpg';
 import TioJoao from '../styles/feirao-tio-joao.jpg';
 import EmporioCampo from '../styles/emporio-do-campo.jpg';
 import PadariaVovoLucia from '../styles/padaria-vovo-lucia.jpg';

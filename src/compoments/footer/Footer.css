@@ -40,7 +40,7 @@
     text-decoration: underline;
   }
   
-  .footer-bottom {
+  #footer-bottom {
     margin-top: 2rem;
     font-size: 0.8rem;
     border-top: 1px solid #555;

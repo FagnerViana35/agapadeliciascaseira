@@ -26,7 +26,7 @@ const NavBar = () => {
                     <li><a href="/" onClick={closeMenu}>Home</a></li>
                     <li><a href="#sobre" onClick={closeMenu}>Sobre</a></li>
                     <li><a href="#produtos" onClick={closeMenu}>Produtos</a></li>
-                    <li><a href="#contato" onClick={closeMenu}>Contatos</a></li>
+                    <li><a href="#footer-bottom" onClick={closeMenu}>Contatos</a></li>
                 </ul>
             </div>
         </nav>

@@ -38,7 +38,7 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <div className="footer-bottom">
+      <div id="footer-bottom">
         <p>&copy; 2024 Ágape Delícias Caseiras. Todos os direitos reservados.</p>
       </div>
     </footer>

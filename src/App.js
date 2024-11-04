@@ -8,9 +8,16 @@ import Home from './compoments/home/Home';
 const App = () => {
     return (
         <div className='container-main'>
+            <div className='navbar-main'>
             <NavBar />
+            </div>
+            <div className='home-main'>
             <Home />
+            </div>
+            <div className='footer-main'>
             <Footer /> 
+            </div>
+            
         </div>
     );
 };

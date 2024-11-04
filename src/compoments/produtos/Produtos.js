@@ -60,16 +60,20 @@ const Produtos = () => {
     <section className="produtos">
       <h2 className="produtos-title">Produtos</h2>
       <div className="produtos-grid">
-        {produtos.map((produto, index) => (
-          <div key={index} className="produto-card">
-            <div className="produto-imagem-container">
-              <img src={produto.imagem} alt={produto.nome} className="produto-imagem" />
-            
-            </div>
-            <h3 className="produto-nome">{produto.nome}</h3>
-            <p className="produto-descricao">{produto.descricao}</p>
-          </div>
-        ))}
+      {produtos.map((produto, index) => (
+  <div key={index} className="produto-card">
+    <div className="produto-imagem-container">
+      <img
+        src={produto.imagem}
+        alt={produto.nome}
+        className={`produto-imagem ${index === 0 ? 'primeira-imagem' : ''}`}
+      />
+    </div>
+    <h3 className="produto-nome">{produto.nome}</h3>
+    <p className="produto-descricao">{produto.descricao}</p>
+  </div>
+))}
+
       </div>
       <Pdf />
     </section>

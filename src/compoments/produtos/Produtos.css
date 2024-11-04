@@ -1,5 +1,5 @@
 .produtos {
-  padding: 40px 20px;
+  padding: 70px 20px;
   background-color: #f0f0f0;
   text-align: center;
 }
@@ -32,7 +32,7 @@
 }
 
 .produto-imagem {
-  width: 100%;
+  width: 110%;
   height: 200px;
   object-fit: cover;
   border-radius: 10px;
@@ -61,35 +61,82 @@
   margin: 0 auto; /* Centraliza o contêiner da imagem */
 }  
 
-/* Modo mobile */
+/* Estilos para telas pequenas (celulares) */
 @media (max-width: 768px) {
   .produtos-title {
-      font-size: 28px; /* Reduzir tamanho da fonte no mobile */
-      margin-bottom: 30px; /* Ajustar margem inferior */
+      font-size: 28px;
+      margin-bottom: 30px;
   }
 
   .produtos-grid {
-      grid-template-columns: 1fr; /* Uma coluna em telas pequenas */
+      grid-template-columns: 1fr;
   }
 
   .produto-nome {
-      font-size: 20px; /* Reduzir tamanho da fonte do nome do produto */
+      font-size: 20px;
   }
 
   .produto-descricao {
-      font-size: 14px; /* Reduzir tamanho da fonte da descrição */
+      font-size: 14px;
   }
 
   .produto-preco {
-      font-size: 18px; /* Reduzir tamanho da fonte do preço */
+      font-size: 18px;
   }
 
   .produto-imagem {
-      height: 150px; /* Ajustar altura da imagem no mobile */
+      height: 150px;
+      width: auto; /* Ajusta a largura proporcionalmente */
   }
 
   .produto-imagem-container {
     width: 50%;
-    margin: 0 auto; /* Centraliza o contêiner da imagem */
+    margin: 0 auto;
   }  
+  .primeira-imagem {
+    width: 200px; /* Tamanho específico para a primeira imagem */
+    height: auto; /* Mantém a proporção */
+  }
+  
 }
+
+/* Estilos específicos para iPads e telas intermediárias */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .produtos-title {
+      font-size: 32px;
+      margin-bottom: 35px;
+  }
+
+  .produtos-grid {
+      grid-template-columns: 1fr 1fr;
+  }
+
+  .produto-nome {
+      font-size: 22px;
+  }
+
+  .produto-descricao {
+      font-size: 16px;
+  }
+
+  .produto-preco {
+      font-size: 20px;
+  }
+
+  .produto-imagem {
+      width: 200px; /* Define uma largura específica para iPads */
+      height: auto; /* Mantém a proporção */
+      max-height: 200px; /* Limita a altura máxima */
+  }
+
+  .produto-imagem-container {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .primeira-imagem {
+    width: 340px; /* Tamanho específico para a primeira imagem */
+    height: auto; /* Mantém a proporção */
+  }
+  
+}
+
